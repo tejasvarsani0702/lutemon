@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Lutemon" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorControlNormal">@color/colorOnSurface</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?colorOnSurface</item>
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Theme.Lutemon" parent="Base.Theme.Lutemon" />
+</resources>
