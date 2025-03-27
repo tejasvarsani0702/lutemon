@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorSurface">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BATTLE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgLutemon1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="20dp" />
+
+        <ImageView
+            android:id="@+id/imgLutemon2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtBattleLog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Battle Log"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack"
+        android:id="@+id/btnNextAttack"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="End Battle"-->
+<!--        android:onClick="finishBattle"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:layout_marginTop="5dp" />-->
+</LinearLayout>
